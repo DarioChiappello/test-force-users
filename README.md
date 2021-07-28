@@ -24,7 +24,7 @@ https://agile-earth-51586.herokuapp.com/force-user?string={
 
 ### Ejecutar servicio stats por medio de una peticion get
 #### Ejemplo:
-https://agile-earth-51586.herokuapp.com/
+https://agile-earth-51586.herokuapp.com/stats
 
 
 
