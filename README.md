@@ -16,9 +16,12 @@ https://agile-earth-51586.herokuapp.com/
 
 ## Ejecutar servicios por Postman
 
-### Ejecutar servicio force-users por medio de una peticion post y como parametro el string
+### Ejecutar servicio force-users por medio de una peticion post y dentro del body el string a validar
 #### Ejemplo: 
-https://agile-earth-51586.herokuapp.com/force-user?string={
+https://agile-earth-51586.herokuapp.com/force-user
+
+
+string={
 "dna":["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 }
 
