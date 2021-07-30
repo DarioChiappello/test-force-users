@@ -18,16 +18,16 @@ https://agile-earth-51586.herokuapp.com/
 
 ### Ejecutar servicio force-users por medio de una peticion post y dentro del body el string a validar
 #### Ejemplo: 
-https://agile-earth-51586.herokuapp.com/force-user
+https://agile-earth-51586.herokuapp.com/api/force-user
 
 
-string={
+{
 "dna":["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 }
 
 ### Ejecutar servicio stats por medio de una peticion get
 #### Ejemplo:
-https://agile-earth-51586.herokuapp.com/stats
+https://agile-earth-51586.herokuapp.com/api/stats
 
 
 

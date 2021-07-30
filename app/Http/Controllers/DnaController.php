@@ -16,7 +16,7 @@ class DnaController extends Controller
         $force_user = false;
         $http = 403;
         $letters = ['A','C','G', 'T'];
-        $string_to_array = json_decode($request->input('string'),true);
+        $string_to_array = json_decode($request->getContent(),true);
         $quantity = 0;
         $array_letters = array();
         
@@ -83,7 +83,7 @@ class DnaController extends Controller
         }
 
         $test = new Test();
-        $test->json = $request->input('string');
+        $test->json = $request->getContent();
         $test->quantity = $quantity;
 
         if($quantity > 0){

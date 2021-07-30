@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/*Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
-});
+});*/
+Route::post('/force-user', 'App\Http\Controllers\DnaController@isForceUser');
+Route::get('/stats','App\Http\Controllers\DnaController@stats');
